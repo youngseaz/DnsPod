@@ -9,7 +9,9 @@ setup(
     author="youngseaz",
     author_email="email@youngseaz.com",
     url="https://github.com/youngseaz/dnspod.git",
-    install_requires=["pycryptodome"],
+    install_requires=["pycryptodome",
+                      "requests"
+                      ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
